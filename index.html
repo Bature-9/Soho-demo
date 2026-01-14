@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOHO — Cocktail Bar</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <!-- INTRO -->
+    <div class="intro" id="intro">
+      <div class="intro-inner">
+        <h1 class="intro-title">SOHO</h1>
+        <p class="intro-sub">Cocktail Bar</p>
+      </div>
+    </div>
+
+    <!-- MAIN SITE -->
+    <main id="site" class="hidden">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <img src="/assets/hero.jpg" alt="Soho Bar" class="hero-bg" />
+
+        <div class="hero-content">
+          <h2>More Than Cocktails.</h2>
+          <h3>A Lifestyle.</h3>
+        </div>
+      </section>
+
+      <!-- MENU -->
+      <section class="menu">
+        <h2>Menu</h2>
+        <div class="menu-grid">
+          <div>
+            <h4>Signature Cocktails</h4>
+            <p>Crafted classics & seasonal originals</p>
+          </div>
+          <div>
+            <h4>Wine & Spirits</h4>
+            <p>Curated labels from around the world</p>
+          </div>
+          <div>
+            <h4>Bites</h4>
+            <p>Late-night small plates</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- AMBIENCE VIDEO -->
+      <section class="video-section">
+        <video autoplay muted loop playsinline>
+          <source src="/assets/ambience1.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <!-- EVENTS -->
+      <section class="events">
+        <h2>Events & DJs</h2>
+        <div class="events-grid">
+          <div class="event-card">
+            <span>Friday</span>
+            <h4>Afro Fusion</h4>
+            <p>Resident DJ</p>
+          </div>
+          <div class="event-card">
+            <span>Saturday</span>
+            <h4>International Sounds</h4>
+            <p>Guest DJ</p>
+          </div>
+          <div class="event-card">
+            <span>Sunday</span>
+            <h4>Chill Selects</h4>
+            <p>Late Close</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOKING -->
+      <section class="booking">
+        <h2>Reservations</h2>
+        <form>
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="date" required />
+          <input type="time" required />
+          <input type="number" placeholder="Guests" required />
+          <button type="submit">Book a Table</button>
+        </form>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <p>SOHO — Open Late · Dress Well · Stay Longer</p>
+        <p>Instagram: @soho.bar</p>
+      </footer>
+    </main>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
